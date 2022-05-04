@@ -8,3 +8,5 @@
 
 - New icon
 
+## v0.0.3
+- Error checking
