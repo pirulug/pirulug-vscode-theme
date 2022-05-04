@@ -5,9 +5,9 @@
     "version": "0.0.1",
     "publisher": "Pirulug",
     "repository": {
-		"type": "git",
-		"url": "https://github.com/pirulug/pirulug-theme.git"
-	},
+        "type": "git",
+        "url": "https://github.com/pirulug/pirulug-theme.git"
+    },
     "engines": {
         "vscode": "^1.66.0"
     },
@@ -29,9 +29,9 @@
         ]
     },
     "galleryBanner": {
-		"color": "#ff0055",
-		"theme": "dark"
-	},
+        "color": "#ff0055",
+        "theme": "dark"
+    },
     "scripts": {
         "build": "node src/dark/index.js && node src/light/index.js"
     }
