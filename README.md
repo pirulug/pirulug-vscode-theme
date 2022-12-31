@@ -20,7 +20,7 @@ A minimal theme for VS Code that comes in dark and light.
 
 ## Installation
 
-1. Install theme from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme)
+1. Install theme from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=Pirulug.pirulug-theme)
 2. Go to `File > Preferences > Color Theme`
 3. Select `Pirulug Dark` or `Pirulug Light`
 
