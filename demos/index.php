@@ -11,7 +11,7 @@ class Vegetable {
     $this->color = $color;
   }
 
-  function is_edible() {
+  public function is_edible() {
     return $this->edible;
   }
 
@@ -39,5 +39,14 @@ class Spinach extends Vegetable {
   }
 
 } // end of class Spinach
+
+if(){
+
+}elseif(){
+
+}else{
+
+}
+
 
 ?>
