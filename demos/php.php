@@ -40,12 +40,14 @@ class Spinach extends Vegetable {
 
 } // end of class Spinach
 
-if(){
+$love = true;
 
-}elseif(){
-
+if($love = true){
+  echo "I love you";
+}elseif($love = false){
+  echo "I not love you";
 }else{
-
+  echo "Love?";
 }
 
 
