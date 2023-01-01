@@ -39,20 +39,16 @@ const theme = {
   tokenColors,
 };
 
-fs.writeFile(
-  "themes/pirulug-light.json",
-  JSON.stringify(theme),
-  (error) => {
-    const log = error
-      ? {
-          method: "error",
-          message: error,
-        }
-      : {
-          method: "log",
-          message: "Theme Light created :-)",
-        };
+fs.writeFile("themes/pirulug-light.json", JSON.stringify(theme), (error) => {
+  const log = error
+    ? {
+        method: "error",
+        message: error,
+      }
+    : {
+        method: "log",
+        message: "Theme Light created :-)",
+      };
 
-    console[log.method](log.message);
-  }
-);
+  console[log.method](log.message);
+});
