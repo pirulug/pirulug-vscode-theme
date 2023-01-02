@@ -12,9 +12,9 @@
 
 A minimal theme for VS Code that comes in dark and light.
 
-![preview-dark](https://i.imgur.com/8KtDfZj.png)
+![preview-dark](https://i.imgur.com/iRELxVN.png)
 
-![preview-light](https://i.imgur.com/G4iIHHJ.png)
+![preview-light](https://i.imgur.com/xX4j9e3.png)
 
 </div>
 

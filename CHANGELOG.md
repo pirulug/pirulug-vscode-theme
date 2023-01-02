@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.0.5
+
+- Error checking
+
 ## v0.0.4
 
 - Error checking
