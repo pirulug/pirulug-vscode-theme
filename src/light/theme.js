@@ -9,16 +9,19 @@ module.exports = {
   foregroundDark: "#000000",
 
   black: "#000000",
-  red: "#ec2932",
-  purple: "#a437ec",
+  gray: "#abb2bf",
+  red: "#ff0000",
+  purple: "#350252",
   orange: "#ec832d",
-  green: "#01b028",
-  yellow: "#ffd500",
-  blue: "#3191f3",
-  magenta: "#e83083",
-  cyan: "#3becc1",
+  green: "#025208",
+  yellow: "#8a7101",
+  blue: "#0623cf",
+  magenta: "#ff0055",
+  cyan: "#00c7d4",
   white: "#f5f5f5",
 
   // Comentario
   comment: "#414141",
+
+  primary: "#ff0055",
 };

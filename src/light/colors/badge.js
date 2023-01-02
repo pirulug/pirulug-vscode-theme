@@ -5,5 +5,5 @@ const theme = require("../theme");
 
 module.exports = {
   "badge.foreground": theme.foreground,
-  "badge.background": theme.backgroundLight
+  "badge.background": theme.backgroundLight,
 };

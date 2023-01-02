@@ -2,7 +2,7 @@
   "name": "pirulug-theme",
   "displayName": "Pirulug Theme",
   "description": "A minimal theme that comes in dark and light.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "Pirulug",
   "repository": {
     "type": "git",

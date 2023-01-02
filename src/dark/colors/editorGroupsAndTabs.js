@@ -11,7 +11,7 @@ module.exports = {
   "editorGroupHeader.tabsBorder": "#30373A",
   "editorGroup.emptyBackground": theme.background,
   "editorGroup.focusedEmptyBorder": "#30373A",
-  "tab.activeBackground": theme.background,
+  "tab.activeBackground": theme.black,
   "tab.activeForeground": theme.foreground,
   "tab.border": "#30373A",
   "tab.inactiveBackground": theme.backgroundDark,
@@ -23,7 +23,7 @@ module.exports = {
   "tab.activeModifiedBorder": "#6699cc",
   "tab.inactiveModifiedBorder": "#5986B3",
   "tab.unfocusedActiveModifiedBorder": "#6699cc",
-  "tab.unfocusedInactiveModifiedBorder": "#5986B3"
+  "tab.unfocusedInactiveModifiedBorder": "#5986B3",
   // "tab.activeBorderTop": "#",
   // "tab.unfocusedActiveBorderTop": "#",
   // "tab.hoverBorder": "#30373A",

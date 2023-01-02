@@ -1,6 +1,7 @@
 const fs = require("fs");
 const colors = require("./colors");
-const tokenColors = require("./tokenColors");
+const tokenColors = require("./tokenColors/tokenColors");
+const semanticTokenColors = require("./tokenColors/semanticTokenColors");
 
 const theme = {
   name: "Pirulug Ligt",
@@ -37,6 +38,7 @@ const theme = {
     ...colors.snippets,
   },
   tokenColors,
+  semanticTokenColors,
 };
 
 fs.writeFile("themes/pirulug-light.json", JSON.stringify(theme), (error) => {
