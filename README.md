@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="p-icon.jpg" width="140" />
+<img src="p-icon.jpg" width="100" />
 
-# Pirulug Theme
+# Pirulug VScode Theme
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/pirulug/pirulug-theme?color=ff0055&style=for-the-badge)
 [![GitHub issues](https://img.shields.io/github/issues/pirulug/pirulug-theme?color=%23ff0055&style=for-the-badge)](https://github.com/pirulug/pirulug-theme/issues)
@@ -27,3 +27,7 @@ A minimal theme for VS Code that comes in dark and light.
 ## License
 
 [MIT License](LICENSE) 
+
+## Author
+
+Created by [Pirulug](https://pirulug.github.io).

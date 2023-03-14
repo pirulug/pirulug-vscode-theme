@@ -21,7 +21,7 @@ module.exports = {
   cyan: "#10b1fe",
 
   // Comentario
-  comment: "#414141",
+  comment: "#7c7c7c",
 
   // punctuation
   punctuation: "#fff",
