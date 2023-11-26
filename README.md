@@ -30,4 +30,4 @@ A minimal theme for VS Code that comes in dark and light.
 
 ## Author
 
-Created by [Pirulug](https://pirulug.github.io).
+Created by [Pirulug](https://github.com/pirulug).
