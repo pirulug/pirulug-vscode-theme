@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="p-icon.jpg" width="100" />
+<img src="p-icon.jpg" width="150" />
 
 # Pirulug VScode Theme
 
