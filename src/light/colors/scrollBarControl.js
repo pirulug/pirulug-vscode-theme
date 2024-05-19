@@ -6,6 +6,6 @@ const theme = require("../theme");
 module.exports = {
   "scrollbar.shadow": theme.transparent,
   "scrollbarSlider.activeBackground": theme.backgroundLight,
-  "scrollbarSlider.background": "#FFFFFF0F",
-  "scrollbarSlider.hoverBackground": "#FFFFFF1F"
+  "scrollbarSlider.background": "#0000000F",
+  "scrollbarSlider.hoverBackground": "#0000001F",
 };

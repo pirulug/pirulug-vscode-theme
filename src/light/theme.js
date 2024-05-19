@@ -1,9 +1,11 @@
 module.exports = {
   transparent: "#FFFFFF00",
 
-  background: "#ffffff",
-  backgroundDark: "#ffffff",
+  background: "#f7f7f7",
+  backgroundDark: "#f7f7f7",
   backgroundLight: "#949494",
+
+  selectionBackground: "#0000002D",
 
   foreground: "#000000",
   foregroundDark: "#000000",

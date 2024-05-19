@@ -1,5 +1,13 @@
 # Change Log
 
+## v0.0.8
+
+- Error checking
+
+## v0.0.7
+
+- Error checking
+
 ## v0.0.6
 
 - Error checking

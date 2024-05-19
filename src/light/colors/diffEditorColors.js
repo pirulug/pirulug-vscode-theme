@@ -5,7 +5,7 @@ const theme = require("../theme");
 
 module.exports = {
   "diffEditor.insertedTextBackground": "#3D4F3B",
-  "diffEditor.insertedTextBorder": "#FFFFFF4D",
+  "diffEditor.insertedTextBorder": "#0000004D",
   "diffEditor.removedTextBackground": "#5E2629",
-  "diffEditor.removedTextBorder": "#FFFFFF4D"
+  "diffEditor.removedTextBorder": "#0000004D",
 };
