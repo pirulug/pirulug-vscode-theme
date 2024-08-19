@@ -340,6 +340,30 @@ module.exports = [
       foreground: "#7068c1",
     },
   },
+  {
+    scope: [
+      "keyword.operator.class.php",
+      "punctuation.terminator.rule.scss",
+      "keyword.operator.assignment.php",
+      "punctuation.terminator.expression.php",
+    ],
+    settings: {
+      fontStyle: "",
+      foreground: "#5687c2",
+    },
+  },
+  {
+    scope: ["variable.language.this.php"],
+    settings: {
+      foreground: "#D4D4D4",
+    },
+  },
+  {
+    scope: ["variable.other.property.php"],
+    settings: {
+      foreground: "#22dc98",
+    },
+  },
   // html
   {
     scope: [
@@ -351,6 +375,56 @@ module.exports = [
       foreground: theme.magenta,
     },
   },
+  {
+    scope: ["entity.other.attribute-name.html"],
+    settings: {
+      fontStyle: "bold",
+      // foreground: theme.orange,
+    },
+  },
+  {
+    scope: ["comment.block.html"],
+    settings: {
+      fontStyle: "italic",
+      // foreground: theme.orange,
+    },
+  },
+  // SCSS
+  {
+    scope: [
+      "punctuation.separator.key-value.scss",
+      "punctuation.terminator.rule.scss",
+    ],
+    settings: {
+      foreground: "#5687c2",
+    },
+  },
+  {
+    scope: ["comment.block.scss"],
+    settings: {
+      fontStyle: "italic",
+    },
+  },
+  {
+    scope: [
+      "keyword.control.each.scss",
+      "keyword.control.if.scss",
+      "keyword.control.else.scss",
+      "keyword.control.operator",
+      "keyword.control.at-rule.import.scss",
+      "keyword.other.important.scss",
+    ],
+    settings: {
+      fontStyle: "italic bold",
+    },
+  },
+  {
+    scope: ["keyword.other.important.scss"],
+    settings: {
+      foreground: "#a54af5",
+      fontStyle: "italic bold",
+    },
+  },
   //JSON
   {
     scope: [
@@ -360,6 +434,26 @@ module.exports = [
     ],
     settings: {
       fontStyle: "",
+    },
+  },
+  {
+    scope: ["support.type.property-name.json"],
+    settings: {
+      fontStyle: "",
+      foreground: theme.red,
+    },
+  },
+  // pug
+  {
+    scope: ["entity.other.attribute-name.tag.pug", "string.quoted.pug"],
+    settings: {
+      fontStyle: "",
+    },
+  },
+  {
+    scope: ["string.interpolated.pug"],
+    settings: {
+      foreground: theme.red,
     },
   },
 ];

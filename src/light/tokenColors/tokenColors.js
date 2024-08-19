@@ -2,6 +2,19 @@ const theme = require("../theme");
 
 module.exports = [
   {
+    settings: {
+      background: "#272822",
+      foreground: "#F8F8F2",
+    },
+  },
+  {
+    scope: ["meta.embedded", "source.groovy.embedded"],
+    settings: {
+      background: "#272822",
+      foreground: "#F8F8F2",
+    },
+  },
+  {
     name: "Comment",
     scope: "comment",
     settings: {
@@ -30,7 +43,7 @@ module.exports = [
     name: "Reset JavaScript string interpolation expression",
     scope: ["meta.template.expression"],
     settings: {
-      foreground: theme.dark,
+      foreground: "#F8F8F2",
     },
   },
   {
@@ -59,7 +72,7 @@ module.exports = [
     scope: "variable",
     settings: {
       fontStyle: "",
-      foreground: "",
+      foreground: "#F8F8F2",
     },
   },
   {
@@ -115,7 +128,7 @@ module.exports = [
     scope: "variable.parameter",
     settings: {
       fontStyle: "italic",
-      foreground: "",
+      foreground: theme.orange,
     },
   },
   {
@@ -171,7 +184,7 @@ module.exports = [
     settings: {
       background: theme.magenta,
       fontStyle: "",
-      foreground: theme.dark,
+      foreground: "#F8F8F0",
     },
   },
   {
@@ -186,14 +199,14 @@ module.exports = [
     name: "JSON String",
     scope: "meta.structure.dictionary.json string.quoted.double.json",
     settings: {
-      foreground: theme.dark,
+      foreground: "#CFCFC2",
     },
   },
   {
     name: "diff.header",
     scope: "meta.diff, meta.diff.header",
     settings: {
-      foreground: theme.gray,
+      foreground: "#75715E",
     },
   },
   {
@@ -301,7 +314,167 @@ module.exports = [
     name: "this.self",
     scope: "variable.language",
     settings: {
-      foreground: "",
+      foreground: theme.orange,
+    },
+  },
+  // php
+  {
+    scope: ["variable.other.php"],
+    settings: {
+      fontStyle: "",
+      foreground: "#000",
+    },
+  },
+  {
+    scope: ["entity.other.inherited-class.php", "entity.name.type.class.php"],
+    settings: {
+      fontStyle: "",
+    },
+  },
+  {
+    scope: ["storage.modifier.extends.php", "storage.modifier.php"],
+    settings: {
+      fontStyle: "italic",
+    },
+  },
+  {
+    scope: [
+      "punctuation.section.embedded.begin.php",
+      "punctuation.section.embedded.end.php",
+    ],
+    settings: {
+      fontStyle: "italic bold",
+      foreground: "#7068c1",
+    },
+  },
+  {
+    scope: [
+      "keyword.operator.class.php",
+      "punctuation.terminator.rule.scss",
+      "keyword.operator.assignment.php",
+      "punctuation.terminator.expression.php",
+    ],
+    settings: {
+      fontStyle: "",
+      foreground: "#5687c2",
+    },
+  },
+  {
+    scope: ["variable.language.this.php"],
+    settings: {
+      foreground: "#000",
+    },
+  },
+  {
+    scope: ["variable.other.property.php"],
+    settings: {
+      foreground: "#22dc98",
+    },
+  },
+  // html
+  {
+    scope: [
+      "punctuation.definition.tag.begin.html",
+      "punctuation.definition.tag.end.html",
+    ],
+    settings: {
+      fontStyle: "bold",
+      foreground: theme.magenta,
+    },
+  },
+  {
+    scope: ["entity.name.tag.html"],
+    settings: {
+      fontStyle: "bold",
+      // foreground: theme.orange,
+    },
+  },
+  {
+    scope: ["string.quoted.double.html"],
+    settings: {
+      fontStyle: "bold",
+      foreground: theme.orange,
+    },
+  },
+  {
+    scope: ["entity.other.attribute-name.html"],
+    settings: {
+      fontStyle: "bold",
+      // foreground: theme.orange,
+    },
+  },
+  {
+    scope: ["comment.block.html"],
+    settings: {
+      fontStyle: "italic",
+      // foreground: theme.orange,
+    },
+  },
+  // SCSS
+  {
+    scope: [
+      "punctuation.separator.key-value.scss",
+      "punctuation.terminator.rule.scss",
+    ],
+    settings: {
+      foreground: "#5687c2",
+    },
+  },
+  {
+    scope: ["comment.block.scss"],
+    settings: {
+      fontStyle: "italic",
+    },
+  },
+  {
+    scope: [
+      "keyword.control.each.scss",
+      "keyword.control.if.scss",
+      "keyword.control.else.scss",
+      "keyword.control.operator",
+      "keyword.control.at-rule.import.scss",
+      "keyword.other.important.scss",
+    ],
+    settings: {
+      fontStyle: "italic bold",
+    },
+  },
+  {
+    scope: ["keyword.other.important.scss"],
+    settings: {
+      foreground: "#a54af5",
+      fontStyle: "italic bold",
+    },
+  },
+  //JSON
+  {
+    scope: [
+      "support.type.property-name.json",
+      "string.quoted.double.json",
+      "string.quoted.single.js",
+    ],
+    settings: {
+      fontStyle: "",
+    },
+  },
+  {
+    scope: ["support.type.property-name.json"],
+    settings: {
+      fontStyle: "",
+      foreground: theme.red,
+    },
+  },
+  // pug
+  {
+    scope: ["entity.other.attribute-name.tag.pug", "string.quoted.pug"],
+    settings: {
+      fontStyle: "",
+    },
+  },
+  {
+    scope: ["string.interpolated.pug"],
+    settings: {
+      foreground: theme.red,
     },
   },
 ];

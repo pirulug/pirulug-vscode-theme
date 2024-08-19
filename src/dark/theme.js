@@ -14,10 +14,10 @@ module.exports = {
   red: "#E15A60",
   purple: "#d38efc",
   orange: "#ffac60",
-  green: "#7cffb4",
-  yellow: "#faf55b",
+  green: "#4aff97",
+  yellow: "#ede84e",
   blue: "#3691ff",
-  magenta: "#ff71bc",
+  magenta: "#ff22aa",
   cyan: "#10b1fe",
 
   // Comentario
