@@ -319,49 +319,65 @@ module.exports = [
   },
   // php
   {
-    scope: ["entity.other.inherited-class.php", "entity.name.type.class.php"],
+    scope: [
+      "entity.name.type.class.php",
+      "entity.other.inherited-class.php"
+    ],
     settings: {
-      fontStyle: "",
+      fontStyle: "italic bold",
+      foreground: "#d38efc"
     },
   },
   {
-    scope: ["storage.modifier.extends.php", "storage.modifier.php"],
+    scope: [
+      "entity.name.function.php",
+      "support.function.construct.php",
+      "support.function.magic.php"
+    ],
     settings: {
-      fontStyle: "italic",
+      fontStyle: "italic bold",
+      foreground: "#3691ff"
+    },
+  },
+  {
+    scope: [
+      "storage.modifier.extends.php",
+      "storage.modifier.php"
+    ],
+    settings: {
+      fontStyle: "italic bold",
+      foreground: "#ffac60"
+    },
+  },
+  {
+    scope: [
+      "support.function.php",
+      "support.function.string.php",
+      "support.function.array.php"
+    ],
+    settings: {
+      fontStyle: "italic bold",
+      foreground: "#4aff97"
     },
   },
   {
     scope: [
       "punctuation.section.embedded.begin.php",
-      "punctuation.section.embedded.end.php",
+      "punctuation.section.embedded.end.php"
     ],
     settings: {
-      fontStyle: "italic bold",
-      foreground: "#7068c1",
+      fontStyle: "bold",
+      foreground: "#d38efc"
     },
   },
   {
     scope: [
-      "keyword.operator.class.php",
-      "punctuation.terminator.rule.scss",
-      "keyword.operator.assignment.php",
-      "punctuation.terminator.expression.php",
+      "variable.other.php",
+      "variable.other.property.php",
+      "variable.other.readwrite.php"
     ],
     settings: {
-      fontStyle: "",
-      foreground: "#5687c2",
-    },
-  },
-  {
-    scope: ["variable.language.this.php"],
-    settings: {
-      foreground: "#D4D4D4",
-    },
-  },
-  {
-    scope: ["variable.other.property.php"],
-    settings: {
-      foreground: "#22dc98",
+      foreground: "#22ffb0"
     },
   },
   // html
@@ -379,6 +395,7 @@ module.exports = [
     scope: ["entity.other.attribute-name.html"],
     settings: {
       fontStyle: "bold",
+      foreground: theme.cyan,
       // foreground: theme.orange,
     },
   },
@@ -386,46 +403,65 @@ module.exports = [
     scope: ["comment.block.html"],
     settings: {
       fontStyle: "italic",
+      foreground: theme.comment,
       // foreground: theme.orange,
     },
   },
   // SCSS
   {
     scope: [
-      "punctuation.separator.key-value.scss",
-      "punctuation.terminator.rule.scss",
+      "variable.scss",
+      "variable.parameter.scss",
+      "variable.other.scss"
     ],
     settings: {
-      foreground: "#5687c2",
-    },
-  },
-  {
-    scope: ["comment.block.scss"],
-    settings: {
-      fontStyle: "italic",
+      foreground: "#2de2e6"
     },
   },
   {
     scope: [
-      "keyword.control.each.scss",
-      "keyword.control.if.scss",
-      "keyword.control.else.scss",
-      "keyword.control.operator",
-      "keyword.control.at-rule.import.scss",
-      "keyword.other.important.scss",
+      "constant.numeric.scss",
+      "keyword.other.unit.scss"
     ],
     settings: {
-      fontStyle: "italic bold",
+      foreground: "#f6c177"
     },
   },
   {
-    scope: ["keyword.other.important.scss"],
+    scope: [
+      "string.quoted.single.scss",
+      "string.quoted.double.scss"
+    ],
     settings: {
-      foreground: "#a54af5",
-      fontStyle: "italic bold",
+      foreground: "#f1fa8c"
     },
   },
-  //JSON
+  {
+    scope: [
+      "entity.other.attribute-name.class.scss",
+      "entity.other.attribute-name.id.scss"
+    ],
+    settings: {
+      foreground: "#ff79c6"
+    },
+  },
+  {
+    scope: [
+      "support.type.property-name.scss"
+    ],
+    settings: {
+      foreground: "#8be9fd"
+    },
+  },
+  {
+    scope: [
+      "punctuation.definition.variable.scss"
+    ],
+    settings: {
+      foreground: "#caa9fa"
+    },
+  },
+  // JSON
   {
     scope: [
       "support.type.property-name.json",
@@ -434,13 +470,14 @@ module.exports = [
     ],
     settings: {
       fontStyle: "",
+      foreground: "#8be9fd"
     },
   },
   {
     scope: ["support.type.property-name.json"],
     settings: {
       fontStyle: "",
-      foreground: theme.red,
+      foreground: "#d0525e"
     },
   },
   // pug

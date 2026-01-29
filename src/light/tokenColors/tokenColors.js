@@ -3,15 +3,15 @@ const theme = require("../theme");
 module.exports = [
   {
     settings: {
-      background: "#272822",
-      foreground: "#F8F8F2",
+      background: theme.background,
+      foreground: theme.foreground,
     },
   },
   {
     scope: ["meta.embedded", "source.groovy.embedded"],
     settings: {
-      background: "#272822",
-      foreground: "#F8F8F2",
+      background: theme.background,
+      foreground: theme.foreground,
     },
   },
   {
@@ -26,7 +26,7 @@ module.exports = [
     name: "String",
     scope: "string",
     settings: {
-      foreground: theme.yellow,
+      foreground: theme.green,
     },
   },
   {
@@ -43,7 +43,7 @@ module.exports = [
     name: "Reset JavaScript string interpolation expression",
     scope: ["meta.template.expression"],
     settings: {
-      foreground: "#F8F8F2",
+      foreground: theme.foreground,
     },
   },
   {
@@ -72,7 +72,7 @@ module.exports = [
     scope: "variable",
     settings: {
       fontStyle: "",
-      foreground: "#F8F8F2",
+      foreground: theme.foreground,
     },
   },
   {
@@ -104,7 +104,7 @@ module.exports = [
     scope: "entity.name.type, entity.name.class",
     settings: {
       fontStyle: "underline",
-      foreground: theme.green,
+      foreground: theme.blue,
     },
   },
   {
@@ -112,7 +112,7 @@ module.exports = [
     scope: "entity.other.inherited-class",
     settings: {
       fontStyle: "italic underline",
-      foreground: theme.green,
+      foreground: theme.blue,
     },
   },
   {
@@ -144,7 +144,7 @@ module.exports = [
     scope: "entity.other.attribute-name",
     settings: {
       fontStyle: "",
-      foreground: theme.green,
+      foreground: theme.cyan,
     },
   },
   {
@@ -152,7 +152,7 @@ module.exports = [
     scope: "support.function",
     settings: {
       fontStyle: "",
-      foreground: theme.cyan,
+      foreground: theme.blue,
     },
   },
   {
@@ -160,7 +160,7 @@ module.exports = [
     scope: "support.constant",
     settings: {
       fontStyle: "",
-      foreground: theme.cyan,
+      foreground: theme.blue,
     },
   },
   {
@@ -168,7 +168,7 @@ module.exports = [
     scope: "support.type, support.class",
     settings: {
       fontStyle: "italic",
-      foreground: theme.cyan,
+      foreground: theme.blue,
     },
   },
   {
@@ -184,7 +184,7 @@ module.exports = [
     settings: {
       background: theme.magenta,
       fontStyle: "",
-      foreground: "#F8F8F0",
+      foreground: theme.white,
     },
   },
   {
@@ -192,28 +192,28 @@ module.exports = [
     scope: "invalid.deprecated",
     settings: {
       background: theme.purple,
-      foreground: "#F8F8F0",
+      foreground: theme.white,
     },
   },
   {
     name: "JSON String",
     scope: "meta.structure.dictionary.json string.quoted.double.json",
     settings: {
-      foreground: "#CFCFC2",
+      foreground: theme.green,
     },
   },
   {
     name: "diff.header",
     scope: "meta.diff, meta.diff.header",
     settings: {
-      foreground: "#75715E",
+      foreground: theme.gray,
     },
   },
   {
     name: "diff.deleted",
     scope: "markup.deleted",
     settings: {
-      foreground: theme.magenta,
+      foreground: theme.red,
     },
   },
   {
@@ -239,7 +239,7 @@ module.exports = [
   {
     scope: "entity.name.filename.find-in-files",
     settings: {
-      foreground: theme.yellow,
+      foreground: theme.blue,
     },
   },
   {
@@ -275,7 +275,7 @@ module.exports = [
     name: "Markup Headings",
     scope: "markup.heading",
     settings: {
-      foreground: theme.green,
+      foreground: theme.blue,
     },
   },
   {
@@ -283,7 +283,7 @@ module.exports = [
     scope: "markup.heading.setext",
     settings: {
       fontStyle: "",
-      foreground: theme.green,
+      foreground: theme.blue,
     },
   },
   {
@@ -314,7 +314,7 @@ module.exports = [
     name: "this.self",
     scope: "variable.language",
     settings: {
-      foreground: theme.orange,
+      foreground: theme.primary,
     },
   },
   // php
@@ -322,19 +322,21 @@ module.exports = [
     scope: ["variable.other.php"],
     settings: {
       fontStyle: "",
-      foreground: "#000",
+      foreground: theme.cyan,
     },
   },
   {
     scope: ["entity.other.inherited-class.php", "entity.name.type.class.php"],
     settings: {
-      fontStyle: "",
+      fontStyle: "italic bold",
+      foreground: theme.blue,
     },
   },
   {
     scope: ["storage.modifier.extends.php", "storage.modifier.php"],
     settings: {
-      fontStyle: "italic",
+      fontStyle: "italic bold",
+      foreground: theme.primary,
     },
   },
   {
@@ -343,8 +345,8 @@ module.exports = [
       "punctuation.section.embedded.end.php",
     ],
     settings: {
-      fontStyle: "italic bold",
-      foreground: "#7068c1",
+      fontStyle: "bold",
+      foreground: theme.purple,
     },
   },
   {
@@ -356,19 +358,19 @@ module.exports = [
     ],
     settings: {
       fontStyle: "",
-      foreground: "#5687c2",
+      foreground: theme.blue,
     },
   },
   {
     scope: ["variable.language.this.php"],
     settings: {
-      foreground: "#000",
+      foreground: theme.primary,
     },
   },
   {
     scope: ["variable.other.property.php"],
     settings: {
-      foreground: "#22dc98",
+      foreground: theme.green,
     },
   },
   // html
@@ -386,28 +388,28 @@ module.exports = [
     scope: ["entity.name.tag.html"],
     settings: {
       fontStyle: "bold",
-      // foreground: theme.orange,
+      foreground: theme.blue,
     },
   },
   {
     scope: ["string.quoted.double.html"],
     settings: {
       fontStyle: "bold",
-      foreground: theme.orange,
+      foreground: theme.green,
     },
   },
   {
     scope: ["entity.other.attribute-name.html"],
     settings: {
       fontStyle: "bold",
-      // foreground: theme.orange,
+      foreground: theme.cyan,
     },
   },
   {
     scope: ["comment.block.html"],
     settings: {
       fontStyle: "italic",
-      // foreground: theme.orange,
+      foreground: theme.comment,
     },
   },
   // SCSS
@@ -417,13 +419,14 @@ module.exports = [
       "punctuation.terminator.rule.scss",
     ],
     settings: {
-      foreground: "#5687c2",
+      foreground: theme.blue,
     },
   },
   {
     scope: ["comment.block.scss"],
     settings: {
       fontStyle: "italic",
+      foreground: theme.comment,
     },
   },
   {
@@ -433,16 +436,16 @@ module.exports = [
       "keyword.control.else.scss",
       "keyword.control.operator",
       "keyword.control.at-rule.import.scss",
-      "keyword.other.important.scss",
     ],
     settings: {
       fontStyle: "italic bold",
+      foreground: theme.primary,
     },
   },
   {
     scope: ["keyword.other.important.scss"],
     settings: {
-      foreground: "#a54af5",
+      foreground: theme.purple,
       fontStyle: "italic bold",
     },
   },
@@ -455,13 +458,14 @@ module.exports = [
     ],
     settings: {
       fontStyle: "",
+      foreground: theme.cyan,
     },
   },
   {
     scope: ["support.type.property-name.json"],
     settings: {
       fontStyle: "",
-      foreground: theme.red,
+      foreground: theme.magenta,
     },
   },
   // pug
@@ -469,12 +473,13 @@ module.exports = [
     scope: ["entity.other.attribute-name.tag.pug", "string.quoted.pug"],
     settings: {
       fontStyle: "",
+      foreground: theme.green,
     },
   },
   {
     scope: ["string.interpolated.pug"],
     settings: {
-      foreground: theme.red,
+      foreground: theme.primary,
     },
   },
 ];

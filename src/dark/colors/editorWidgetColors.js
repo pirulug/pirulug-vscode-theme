@@ -5,16 +5,16 @@ const theme = require("../theme");
 
 module.exports = {
   "editorWidget.background": theme.backgroundDark,
-  "editorWidget.border": "#30373A",
+  "editorWidget.border": theme.backgroundLight,
   "editorSuggestWidget.background": theme.backgroundDark,
-  "editorSuggestWidget.border": "#30373A",
+  "editorSuggestWidget.border": theme.backgroundLight,
   "editorSuggestWidget.foreground": theme.foreground,
   // "editorSuggestWidget.highlightForeground": "#FF0000",
-  "editorSuggestWidget.selectedBackground": "#30373A",
+  "editorSuggestWidget.selectedBackground": theme.backgroundLight,
   "editorHoverWidget.background": theme.backgroundDark,
-  "editorHoverWidget.border": "#30373A",
+  "editorHoverWidget.border": theme.backgroundLight,
   "debugExceptionWidget.background": theme.backgroundDark,
-  "debugExceptionWidget.border": "#30373A",
+  "debugExceptionWidget.border": theme.backgroundLight,
   "editorMarkerNavigation.background": theme.backgroundDark,
   "editorMarkerNavigationError.background": theme.red,
   "editorMarkerNavigationWarning.background": theme.yellow

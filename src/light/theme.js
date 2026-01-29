@@ -1,29 +1,29 @@
 module.exports = {
-  transparent: "#FFFFFF00",
+  transparent: "#00000000",
 
-  background: "#f7f7f7",
-  backgroundDark: "#f7f7f7",
-  backgroundLight: "#949494",
+  background: "#f6f7f9",
+  backgroundDark: "#eef0f3",
+  backgroundLight: "#d0d4da",
 
-  selectionBackground: "#0000002D",
+  selectionBackground: "#ff00552d",
 
-  foreground: "#000000",
-  foregroundDark: "#000000",
+  foreground: "#1f2328",
+  foregroundDark: "#4b5563",
 
   black: "#000000",
-  gray: "#abb2bf",
-  red: "#ff0000",
-  purple: "#350252",
-  orange: "#ec832d",
-  green: "#025208",
-  yellow: "#8a7101",
-  blue: "#0623cf",
+  gray: "#6b7280",
+  red: "#d92d20",
+  purple: "#5b2b82",
+  orange: "#c2410c",
+  green: "#166534",
+  yellow: "#8a6a00",
+  blue: "#1d4ed8",
   magenta: "#ff0055",
-  cyan: "#00c7d4",
-  white: "#f5f5f5",
+  cyan: "#0891b2",
+  white: "#ffffff",
 
   // Comentario
-  comment: "#414141",
+  comment: "#6b7280",
 
   primary: "#ff0055",
 };

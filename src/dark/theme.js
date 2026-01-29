@@ -3,12 +3,12 @@ module.exports = {
 
   background: "#0d1017",
   backgroundDark: "#0d1117",
-  backgroundLight: "#333D3D", //Border
+  backgroundLight: "#333D3D",
 
-  foreground: "#e0Dfd0",
+  foreground: "#e0dfd0",
   foregroundDark: "#808080",
 
-  black: "#000",
+  black: "#000000",
   white: "#e0dfdf",
   gray: "#abb2bf",
   red: "#E15A60",
@@ -24,7 +24,7 @@ module.exports = {
   comment: "#7c7c7c",
 
   // punctuation
-  punctuation: "#fff",
+  punctuation: "#ffffff",
 
   // Colors
   primary: "#ff0055",

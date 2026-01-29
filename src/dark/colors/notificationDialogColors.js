@@ -4,12 +4,12 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_notification-colors
 
 module.exports = {
-  "notificationCenter.border": "#30373A",
+  "notificationCenter.border": theme.backgroundLight,
   "notificationCenterHeader.foreground": theme.foreground,
   "notificationCenterHeader.background": theme.backgroundDark,
-  "notificationToast.border": "#30373A",
+  "notificationToast.border": theme.backgroundLight,
   "notifications.foreground": theme.foreground,
   "notifications.background": theme.backgroundDark,
-  "notifications.border": "#30373A",
+  "notifications.border": theme.backgroundLight,
   "notificationLink.foreground": theme.blue
 };
