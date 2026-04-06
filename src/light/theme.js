@@ -5,12 +5,13 @@ module.exports = {
   backgroundDark: "#eef0f3",
   backgroundLight: "#d0d4da",
 
-  selectionBackground: "#ff00552d",
-
   foreground: "#1f2328",
   foregroundDark: "#4b5563",
 
+  selectionBackground: "#ff00552d",
+
   black: "#000000",
+  white: "#ffffff",
   gray: "#6b7280",
   red: "#d92d20",
   purple: "#5b2b82",
@@ -20,10 +21,11 @@ module.exports = {
   blue: "#1d4ed8",
   magenta: "#ff0055",
   cyan: "#0891b2",
-  white: "#ffffff",
 
-  // Comentario
+  // Syntax colors
   comment: "#6b7280",
+  punctuation: "#1f2328",
 
+  // Brand
   primary: "#ff0055",
 };

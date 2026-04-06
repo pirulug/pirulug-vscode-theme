@@ -1,5 +1,5 @@
 module.exports = {
-  transparent: "#FFFFFF00",
+  transparent: "#00000000",
 
   background: "#0d1017",
   backgroundDark: "#0d1117",
@@ -7,6 +7,8 @@ module.exports = {
 
   foreground: "#e0dfd0",
   foregroundDark: "#808080",
+
+  selectionBackground: "#ff00553D",
 
   black: "#000000",
   white: "#e0dfdf",
@@ -20,12 +22,10 @@ module.exports = {
   magenta: "#ff22aa",
   cyan: "#10b1fe",
 
-  // Comentario
+  // Syntax colors
   comment: "#7c7c7c",
-
-  // punctuation
   punctuation: "#ffffff",
 
-  // Colors
+  // Brand
   primary: "#ff0055",
 };

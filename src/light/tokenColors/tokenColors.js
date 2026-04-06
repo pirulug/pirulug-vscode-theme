@@ -319,167 +319,210 @@ module.exports = [
   },
   // php
   {
-    scope: ["variable.other.php"],
-    settings: {
-      fontStyle: "",
-      foreground: theme.cyan,
-    },
-  },
-  {
-    scope: ["entity.other.inherited-class.php", "entity.name.type.class.php"],
+    scope: [
+      "entity.name.type.class.php",
+      "entity.other.inherited-class.php"
+    ],
     settings: {
       fontStyle: "italic bold",
-      foreground: theme.blue,
-    },
-  },
-  {
-    scope: ["storage.modifier.extends.php", "storage.modifier.php"],
-    settings: {
-      fontStyle: "italic bold",
-      foreground: theme.primary,
+      foreground: theme.blue
     },
   },
   {
     scope: [
-      "punctuation.section.embedded.begin.php",
-      "punctuation.section.embedded.end.php",
+      "entity.name.function.php",
+      "support.function.construct.php",
+      "support.function.magic.php"
     ],
     settings: {
-      fontStyle: "bold",
-      foreground: theme.purple,
+      fontStyle: "italic bold",
+      foreground: theme.blue
     },
   },
   {
     scope: [
-      "keyword.operator.class.php",
-      "punctuation.terminator.rule.scss",
-      "keyword.operator.assignment.php",
-      "punctuation.terminator.expression.php",
+      "storage.modifier.extends.php",
+      "storage.modifier.php"
     ],
     settings: {
-      fontStyle: "",
-      foreground: theme.blue,
+      fontStyle: "italic bold",
+      foreground: theme.magenta
     },
   },
   {
-    scope: ["variable.language.this.php"],
+    scope: [
+      "variable.other.php",
+      "variable.other.property.php",
+      "variable.other.readwrite.php"
+    ],
     settings: {
-      foreground: theme.primary,
+      foreground: theme.cyan
     },
   },
   {
-    scope: ["variable.other.property.php"],
+    scope: "keyword.control.php",
     settings: {
-      foreground: theme.green,
-    },
+      fontStyle: "italic",
+      foreground: theme.magenta
+    }
   },
   // html
   {
     scope: [
       "punctuation.definition.tag.begin.html",
       "punctuation.definition.tag.end.html",
+      "punctuation.separator.key-value.html",
+      "punctuation.definition.string.begin.html",
+      "punctuation.definition.string.end.html"
     ],
     settings: {
-      fontStyle: "bold",
-      foreground: theme.magenta,
-    },
+      foreground: theme.foregroundDark
+    }
   },
   {
-    scope: ["entity.name.tag.html"],
+    scope: "entity.name.tag.html",
     settings: {
       fontStyle: "bold",
-      foreground: theme.blue,
-    },
+      foreground: theme.blue
+    }
   },
   {
-    scope: ["string.quoted.double.html"],
-    settings: {
-      fontStyle: "bold",
-      foreground: theme.green,
-    },
-  },
-  {
-    scope: ["entity.other.attribute-name.html"],
-    settings: {
-      fontStyle: "bold",
-      foreground: theme.cyan,
-    },
-  },
-  {
-    scope: ["comment.block.html"],
+    scope: "entity.other.attribute-name.html",
     settings: {
       fontStyle: "italic",
-      foreground: theme.comment,
-    },
+      foreground: theme.cyan
+    }
   },
-  // SCSS
   {
-    scope: [
-      "punctuation.separator.key-value.scss",
-      "punctuation.terminator.rule.scss",
-    ],
+    scope: "string.quoted.double.html",
     settings: {
-      foreground: theme.blue,
-    },
+      foreground: theme.green
+    }
   },
   {
-    scope: ["comment.block.scss"],
+    scope: "comment.block.html",
     settings: {
       fontStyle: "italic",
-      foreground: theme.comment,
-    },
+      foreground: theme.comment
+    }
+  },
+  // CSS / SCSS
+  {
+    scope: [
+      "entity.name.tag.css",
+      "entity.name.tag.scss",
+      "entity.other.attribute-name.class.css",
+      "entity.other.attribute-name.class.scss",
+      "entity.other.attribute-name.id.css",
+      "entity.other.attribute-name.id.scss"
+    ],
+    settings: {
+      fontStyle: "bold",
+      foreground: theme.blue
+    }
   },
   {
     scope: [
-      "keyword.control.each.scss",
-      "keyword.control.if.scss",
-      "keyword.control.else.scss",
-      "keyword.control.operator",
-      "keyword.control.at-rule.import.scss",
+      "support.type.property-name.css",
+      "support.type.property-name.scss"
     ],
     settings: {
-      fontStyle: "italic bold",
-      foreground: theme.primary,
-    },
+       fontStyle: "italic",
+       foreground: theme.cyan
+    }
   },
-  {
-    scope: ["keyword.other.important.scss"],
-    settings: {
-      foreground: theme.purple,
-      fontStyle: "italic bold",
-    },
-  },
-  //JSON
   {
     scope: [
-      "support.type.property-name.json",
-      "string.quoted.double.json",
-      "string.quoted.single.js",
+      "support.constant.property-value.css",
+      "support.constant.property-value.scss"
     ],
     settings: {
-      fontStyle: "",
-      foreground: theme.cyan,
-    },
+      foreground: theme.orange
+    }
   },
   {
-    scope: ["support.type.property-name.json"],
+    scope: [
+      "variable.scss",
+      "variable.parameter.scss",
+      "variable.other.scss",
+      "punctuation.definition.variable.scss"
+    ],
     settings: {
-      fontStyle: "",
-      foreground: theme.magenta,
-    },
+      foreground: theme.purple
+    }
+  },
+  {
+    scope: "keyword.control.at-rule",
+    settings: {
+      fontStyle: "italic",
+      foreground: theme.magenta
+    }
+  },
+  // JS / TS
+  {
+    scope: [
+      "storage.type.js",
+      "storage.type.ts",
+      "keyword.control.js",
+      "keyword.control.ts",
+      "keyword.operator.new.js",
+      "keyword.operator.new.ts"
+    ],
+    settings: {
+      fontStyle: "italic",
+      foreground: theme.magenta
+    }
+  },
+  {
+    scope: [
+      "entity.name.function.js",
+      "entity.name.function.ts",
+      "support.function.dom.js",
+      "support.function.dom.ts"
+    ],
+    settings: {
+      foreground: theme.blue
+    }
+  },
+  {
+    scope: "variable.language.this",
+    settings: {
+      fontStyle: "bold",
+      foreground: theme.orange
+    }
   },
   // pug
   {
-    scope: ["entity.other.attribute-name.tag.pug", "string.quoted.pug"],
+    scope: [
+      "entity.name.tag.pug",
+      "storage.type.pug"
+    ],
     settings: {
-      fontStyle: "",
-      foreground: theme.green,
+      fontStyle: "bold",
+      foreground: theme.magenta,
     },
   },
   {
-    scope: ["string.interpolated.pug"],
+    scope: "entity.other.attribute-name.tag.pug",
     settings: {
-      foreground: theme.primary,
-    },
+      fontStyle: "italic",
+      foreground: theme.cyan
+    }
+  },
+  {
+    scope: [
+      "comment.line.pug",
+      "comment.block.pug"
+    ],
+    settings: {
+      fontStyle: "italic",
+      foreground: theme.comment
+    }
+  },
+  {
+    scope: "string.interpolated.pug",
+    settings: {
+      foreground: theme.primary
+    }
   },
 ];

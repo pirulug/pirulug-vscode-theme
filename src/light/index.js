@@ -4,7 +4,7 @@ const tokenColors = require("./tokenColors/tokenColors");
 const semanticTokenColors = require("./tokenColors/semanticTokenColors");
 
 const theme = {
-  name: "Pirulug Ligt",
+  name: "Pirulug Light",
   type: "light",
   colors: {
     ...colors.baseColors,

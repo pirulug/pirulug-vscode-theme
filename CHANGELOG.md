@@ -1,5 +1,17 @@
 # Change Log
 
+## v0.1.1
+
+- **Harmonized source logic** between Dark and Light themes for better consistency.
+- **Fixed semantic tokens structure** bug that prevented some colors from applying correctly.
+- **Improved syntax highlighting** for several web languages:
+  - **Pug**: Added support for tags, attributes, and comments (`//`, `//-`).
+  - **PHP**: Refined variable highlighting and keywords.
+  - **CSS/SCSS**: Improved selector and property distinction.
+  - **JS/TS**: Better keyword and function highlighting using the new premium palette.
+- Fixed typo in Light theme name in the metadata.
+- Standardized all internal variables to use the centralized theme palette.
+
 ## v0.1.0
 
 - Full color palette refinement for **Dark and Light** themes
